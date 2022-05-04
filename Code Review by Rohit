@@ -1,0 +1,31 @@
+input1=input("Enter your first input=")
+
+input2=input("Enter your second input=")
+
+input3=int(input("Enter your third input="))
+
+a1= int(input1) + int(input2)
+
+a1_new= a1 + input3
+
+a2= int(input1) - int(input2)
+
+a2_new= a2 - input3
+
+a3= int(input1) * int(input2)
+
+a3_new= a3 * input3
+
+a4= int(input1) / int(input2)
+
+a4_new= a4 + input3
+
+print("Sum= %d" % (a1_new))
+
+print("Subtraction=%d" % (a2_new))
+
+print("Multiplicaation= %d" % (a3_new))
+
+print("Division= %d " % (a4_new))
+
+
